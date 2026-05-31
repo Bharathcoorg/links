@@ -16,7 +16,7 @@ I'm not sharing this for sympathy. I'm sharing it because I want you to understa
 
 ---
 
-*Sorry for the long post! Since this is a massive write-up covering eight months of solo hacking, if you'd prefer a quick summary or want to feed this directly to an AI assistant (like ChatGPT, Claude, or Gemini) to present or summarize it for you, feel free to use the raw markdown file here: [proposal.md](https://github.com/Bharathcoorg/links/raw/refs/heads/main/proposal.md)*
+*Sorry for the long post! Since this is a massive write-up covering eight months of solo hacking, if you'd prefer a quick summary or want to feed this directly to an AI assistant (like ChatGPT, Claude, or Gemini) to present or summarize it for you, feel free to use the raw markdown file here: [polkadot-forum-post-bharathcoorg.md](https://github.com/Bharathcoorg/links/raw/refs/heads/main/polkadot-forum-post-bharathcoorg.md)*
 
 
 
