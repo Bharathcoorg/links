@@ -409,10 +409,6 @@ My immediate technical priority is taking us from our current **devnet to a stab
 
 ---
 
-## The Bootstrap Struggle: ADHD, Hardware, and LLMs
-
-Everything you see in this stack has been entirely bootstrapped and built by a single developer. 
-
 To be completely honest, building at this scale as a solo creator is a brutal grind. I am an **introvert with an ADHD brain**, and over the years, I have learned to channel it to think and write code at hyper-speed. But I am hitting a hard physical limit. I am currently working on very modest hardware—I am actively trying to secure a **high-end PC and extra screens** so I can physically coordinate these multiple workspaces faster. 
 
 My AI assistance workflow is similarly bootstrapped. Because I cannot afford costly premium subscriptions, I haven't been able to use top-tier models like Claude as much as I'd like. Instead, my workflow has been a highly scrappy mix of **human intuition, Chinese AI models, Google models, and Codex** over the last few months to get by. Having access to high-end hardware and premium developer models would easily let me build at a frontier pace. 
