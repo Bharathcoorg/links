@@ -1,4 +1,4 @@
-# Interlayer, Liteverse, Interclaw - MultiVM, Multichain And AI Madness
+# 8 Months of Solo Hacking: Building a 5-VM Substrate Kernel, a DePIN Client Mesh, and the AI Agent Stack for a Web3 Smartphone
 
 Hi Polkadot Community! 👋
 
@@ -376,6 +376,7 @@ You can explore the interface and test the working agent panel directly:
 | Component | Technology |
 |-----------|------------|
 | L1 runtime | Substrate FRAME, `polkadot-v1.21.0` |
+| Custom Pallets | **38 proprietary pallets** (atomic-execution, mel-bus, unified-address, handles, pq-signatures, etc.) |
 | Consensus | Custom HotStuff BFT |
 | EVM | `revm` v33.1 + `alloy-primitives` |
 | SVM | Patched `solana_rbpf` |
@@ -421,9 +422,9 @@ My AI assistance workflow is similarly bootstrapped. Because I cannot afford cos
 
 My ultimate, long-term dream is to build a **decentralized blockchain smartphone**. We might be talking about Polkadot Smartphones or Kusama cars in the near future, and I am already testing the foundations of this on my old, rooted Android phone. 
 
-I want our InterClaw agents to run securely and locally on consumer devices to solve real, everyday problems for normal people. Here is an example of what I am actively trying to build:
+I want our InterClaw agents to run securely and locally on consumer devices to solve real, everyday problems for normal people. Here are some examples of how they will make life easier:  
 
-*   **The Bangalore Ride-Booking Usecase**: In Bangalore, we have 4 to 5 different ride-booking apps. Standard API price scraping doesn't work because every user gets a custom, individual discount code. With InterClaw running locally on a rooted phone, a non-tech elderly user could simply send a WhatsApp message: *"I need a ride to the station."* The agent securely spins up all 5 apps concurrently, searches for rides, finds the best price, books it, automatically cancels the searches on all other apps once a driver is assigned, and lets the user know. No complexity, no tracking, just local automation.
+*   **The Bangalore Ride-Booking Usecase**: In Bangalore, we have 4 to 5 different ride-booking apps. Standard API price scraping doesn't work because every user gets a custom, individual discount code. With InterClaw running locally on phone, a non-tech elderly user could simply send a WhatsApp message: *"I need a ride to the station."* The agent securely spins up all 5 apps concurrently, searches for rides, finds the best price, books it, automatically cancels the searches on all other apps once a driver is assigned, and lets the user know. No complexity, no tracking, just local automation.
 *   **Smart Quick-Commerce Planning**: Quick-commerce apps offer massive 10-20 minute food/grocery delivery discounts, but planning a cart across multiple apps to get the highest discount is too exhausting for the average person. Local agents running inside a dedicated blockchain smartphone can calculate and optimize this instantly.
 *   **Business-in-a-Box Solutions**: Beyond consumer apps, I am working on "business-in-a-box" agents—like automated e-commerce store managers and social media automation agents—to help normal, real-world merchants bootstrap their businesses with zero overhead.
 
