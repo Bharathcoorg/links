@@ -181,7 +181,7 @@ Instead of letting predatory bots exploit transaction ordering, our engine activ
 *   **Intelligent Sandwich & Attack Detection**: The system continuously analyzes transaction patterns to detect bots attempting sandwich attacks. If a malicious bot is caught exploiting standard user transactions, the engine instantly flags the account and routes them directly to a **system-wide blacklist**.
 *   **Fair Ordering Timing Delays**: By enforcing built-in delays and timing analyses at the mempool level, the blockchain ensures transaction sequence fairness, preventing front-running bots from jumping the line by outbidding users on transaction priority.
 *   **Block-Level Gas & Call Safeguards**: The engine maintains block-wide limits on cross-VM execution density and gas consumption. This keeps the network highly responsive and prevents spam attacks from degrading blockchain performance.
-*   **10% MEV Tax & Community Real-Yield**: If structured MEV arbitrage does occur, the engine levies a **10% tax on the arbitrage profits**. This captured tax isn't pocketed by validators—it is fed directly back into community rewards, supporting delegators, stakers, and ecosystem growth.
+*   **10% MEV Tax & Community Real-Yield**: If structured MEV arbitrage does occur, the engine levies a **10% tax on the arbitrage profits**. This captured tax isn't pocketed by validators—it is fed directly back into community treasury, supporting ecosystem growth.
 
 ### Staking & Where the Fees Go (No Inflation, Real Yield)
 
@@ -398,7 +398,7 @@ You can explore the interface and test the working agent panel directly:
 
 ## The Road Ahead: My Unfinished Dreams & Upcoming Products
 
-I have been hacking away in absolute silence for eight months because I was terrified of presenting half-finished ideas. But I have reached the point where I need the community more than another month of solo dev time. While a solid **40% of the core architecture is live and working on our devnet today**, there is an entire ocean of products and features that are either in progress or waiting in my head to be built:
+I have been hacking away in absolute silence for eight months because I was terrified of presenting half-finished ideas. But I have reached the point where I need the community more than another month of solo dev time. While a solid **60% of the core architecture is live and working on our devnet today**, there is an entire ocean of products and features that are either in progress or waiting in my head to be built:
 
 *   **Multi-VM AI IDE**: A custom, intelligent development environment (like Cursor) built from the ground up to support multi-VM smart contract development with skills and built-in testing, simulation, and security audits.
 *   **Mirofish AI Simulation**: A visual playground to dry-run transaction bundles and VM state transitions before committing them on-chain. Governance and Trading systems can also use this.
@@ -406,7 +406,7 @@ I have been hacking away in absolute silence for eight months because I was terr
 *   **Skill Leasing Markets**: A decentralized platform where expert traders or DAOs can code custom agent skillsets and lease them to other users for an automated profit share.
 *   **24/7 Red-Team Hacking Agents**: Autonomous, on-chain agents whose sole job is to constantly attack our own smart contracts and network infrastructure in real-time, finding and patching vulnerabilities before they can be exploited.
 
-My immediate technical priority is taking us from our current **devnet to a stable testnet**. Along the way, I am committed to **manually writing and polishing clean documentation** for every single repo and open-sourcing the vast majority of the codebase so anyone can build on it.
+My immediate technical priorities are taking us from our current **devnet to a stable testnet**, aggressively **hardening the security of our existing products** , and **writing and polishing clean documentation** for every single repo and product. I want to open-source the vast majority of this codebase so anyone can build on it.
 
 ---
 
@@ -420,7 +420,7 @@ My AI assistance workflow is similarly bootstrapped. Because I cannot afford cos
 
 ## The Ultimate Dream: The Blockchain Smartphone & Real-World Agents
 
-My ultimate, long-term dream is to build a **decentralized blockchain smartphone**. We might be talking about Polkadot Smartphones or Kusama cars in the near future, and I am already testing the foundations of this on my old, rooted Android phone. 
+My ultimate, long-term dream is to build a **decentralized blockchain smartphone**. We might be talking about Polkadot Smartphones or Kusama cars in the near future, and I am already testing the foundations of this on my old, rooted Android phone (I even tried running Docker on the phone too, though it’s probably not a good idea to share too much about these smartphone ideas in public yet). We can't just add a hardware wallet, some DApps, and a wallet app and call it a blockchain smartphone—that's not real Web3 innovation. That's just the equivalent of phone manufacturers adding one more camera lens every year without any actual progress.
 
 I want our InterClaw agents to run securely and locally on consumer devices to solve real, everyday problems for normal people. Here are some examples of how they will make life easier:  
 
