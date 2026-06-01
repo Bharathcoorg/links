@@ -52,8 +52,6 @@ Here is how these three pieces connect visually, followed by a deep dive into th
 
 InterLayer (originally conceived as Edgeware 2.0 before I decided a fresh sovereign chain was the right path rather than a revival) is a sovereign Substrate L1 chain designed around one core idea: **a single state machine that natively runs smart contracts from five different virtual machines at the same time, acting as a superchain settlement engine**.  Currently, the InterLayer Gravity Devnet is fully active, demonstrating live cross-VM interoperability and consensus.
 
-![InterLayer Corechain Architecture](./architecture_diagram.png)
-
 ### Multi-VM Execution Layer (MEL)
 
 Rather than maintaining separate, isolated networks, all five virtual machines run natively inside the same Substrate runtime, sharing a single global state and account balance system under the **Multi-VM Execution Layer (MEL)**. 
