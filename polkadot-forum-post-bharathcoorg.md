@@ -447,7 +447,4 @@ Thank you for reading.
 — Bharath  
 Coorg, India
 
-**Social Links**  
-- [Telegram](https://t.me/bharathcoorg)  
-- [Matrix](https://matrix.to/u/@bharathcoorg:matrix.org)  
-- [X/Twitter](https://x.com/bharathcoorg7)
+**Connect with Me** — [Telegram](https://t.me/bharathcoorg) · [Matrix](https://matrix.to/u/@bharathcoorg:matrix.org) · [X/Twitter](https://x.com/bharathcoorg7)
